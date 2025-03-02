@@ -5,8 +5,7 @@ let thoughts = document.querySelector("#thoughts");
 button1.style.display = "none";
 thoughts.style.display = "none";
 const welcomeText = [
-    "Genesis...",
-    "The Lost Arks. . . . . .",
+    ". ."
     ". . .",
     ". . . .",
     ". . . . .",
