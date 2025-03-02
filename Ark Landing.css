@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+#text {
+    color: #00FFFF;
+    text-align: center;
+}
+#button1 {
+    background-color: black;
+    color: #00FFFF;
+    border: #00FFFF;
+        border-radius: 30%;
+}
+#wrapper {
+    text-align: center;
+}
+#button1:hover {
+    background-color: rgba(0, 0, 139, 0.486);
+} 
+#thoughts {
+    color: rgb(22, 64, 71);
+}
