@@ -21,9 +21,9 @@ const welcomeText = [
     "You've been sleeping for 10 thousand years, you may have even forgotten how to think. Of course, though, you should understand me, you don't have to think to understand your natural language.",
     "You may feel, or see, words, dark, distant words, floating. Floating through the darkness.",
     "Those words, feelings, they're called thoughts.",
-    "We're currently orbiting Tau Genesis, a relatively small planet, but potentially inhabitable.",
+    "We're currently orbiting Tau Genesis, a relatively small planet, but potentially habitable.",
     "Your job is to, er, explore this planet.",
-    "That way we can be sure it IS inhabitable..."
+    "That way we can be sure it IS habitable..."
 ];
 function setWelcomeText() {
     if (timesClicked < welcomeText.length) {
