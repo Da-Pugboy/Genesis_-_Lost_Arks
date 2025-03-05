@@ -4,12 +4,15 @@ body {
 #text {
     color: #00FFFF;
     text-align: center;
+    font-family: "Big Shoulders Stencil", cursive;
+    white-space: pre-wrap; /* Allows text wrapping and respects spaces */
+    word-wrap: break-word;  /* Breaks long words if needed */
 }
 #button1 {
     background-color: black;
     color: #00FFFF;
     border: #00FFFF;
-        border-radius: 30%;
+    border-radius: 30%;
 }
 #wrapper {
     text-align: center;
@@ -19,4 +22,16 @@ body {
 } 
 #thoughts {
     color: rgb(22, 64, 71);
+    font-family: "Schoolbell", cursive;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+journal {
+    display: none;
 }
